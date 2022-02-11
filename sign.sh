@@ -8,6 +8,6 @@ if [[ ! -e "$(npm bin)/web-ext" ]]; then
 fi
 webext="$(npm bin)/web-ext"
 
-source secrets
+source .secrets
 
 "$webext" sign --api-key=$AMO_JWT_ISSUER --api-secret=$AMO_JWT_SECRET "$@"
