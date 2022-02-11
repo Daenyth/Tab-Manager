@@ -1,6 +1,6 @@
 {
 	"name": "Tab Manager for Firefox",
-	"version": "4.2.0",
+	"version": "0.1.0",
 	"manifest_version": 2,
 	"description": "Quickly and conveniently manage your open tabs",
 	"icons": {
