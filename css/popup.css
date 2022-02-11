@@ -2,11 +2,15 @@ html{
 	padding:8px;
 	margin:0px;
 	user-select:none;
+	height: 65%;
 }
 body{
 	padding:0px;
 	margin:0px;
 	-webkit-user-select:none;
+	user-select:none;
+	height: 65%;
+	width: 450px;
 }
 .window{
 	width:400px;
@@ -24,7 +28,7 @@ body{
 	border-left:1px solid #b2b2b2;
 	padding-left:10px;
 	margin-left:10px;
-	width:auto;
+	width: auto;
 }
 .window:first-child{
 	padding-top:0px;
@@ -161,6 +165,7 @@ body{
 	white-space:nowrap;
 
 	-webkit-user-select:none;
+	user-select:none;
 }
 
 .newliner{
@@ -183,7 +188,7 @@ input{
 .window.searchbox{
 	background-color:white;
 	padding:10px;
-	position:fixed;
+	position:sticky;
 	bottom:0px;
 	left:0px;
 }
