@@ -1,4 +1,7 @@
 .idea
 .DS_Store
 .vscode/
-*.xpi
+web-ext-artifacts/
+node_modules/
+package-lock.json
+package.json
