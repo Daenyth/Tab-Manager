@@ -10,4 +10,4 @@ webext="$(npm bin)/web-ext"
 
 source secrets
 
-"$webext" sign --api-key=$AMO_JWT_ISSUER --api-secret=$AMO_JWT_SECRET
+"$webext" sign --api-key=$AMO_JWT_ISSUER --api-secret=$AMO_JWT_SECRET "$@"
