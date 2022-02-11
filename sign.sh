@@ -8,7 +8,6 @@ if [[ ! -e "$(npm bin)/web-ext" ]]; then
 fi
 webext="$(npm bin)/web-ext"
 
-# files="css images lib manifest.json popup.html"
-# zip -r tab-manager-firefox.xpi $files -x "*.DS_Store" -x "__MACOSX"
+source secrets
 
-"$webext" build
+"$webext" sign --api-key=$AMO_JWT_ISSUER --api-secret=$AMO_JWT_SECRET
