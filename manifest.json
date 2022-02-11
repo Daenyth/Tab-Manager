@@ -20,5 +20,10 @@
 				"default": "Ctrl+T"
 			}
 		}
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "daenyth+tabmanager@gmail.com"
+		}
 	}
 }
