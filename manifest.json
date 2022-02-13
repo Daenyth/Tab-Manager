@@ -1,6 +1,6 @@
 {
 	"name": "Tab Manager for Firefox",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"manifest_version": 2,
 	"description": "Quickly and conveniently manage your open tabs",
 	"icons": {
@@ -17,7 +17,8 @@
 	"commands": {
 		"_execute_browser_action": {
 			"suggested_key": {
-				"default": "Ctrl+T"
+				"default": "Ctrl+T",
+				"macos": "Ctrl+T"
 			}
 		}
 	}
