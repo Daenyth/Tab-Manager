@@ -21,5 +21,11 @@
 				"macos": "Ctrl+T"
 			}
 		}
+	},
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{4c6f8e84-4405-407a-a5c8-f83ca2609d24}",
+			"strict_min_version": "42.0"
+		}
 	}
 }
